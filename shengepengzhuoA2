@@ -1,10 +1,10 @@
 What does the model achieve?
 - Figure out the linear relationship between temperature and pressure of air
 How should metrics be interpreted?
-- The independent varaible is temperature in the unit of Kelvein, and the dependent variable is pressure in the unit of Pascal
+- The independent variable is temperature in the unit of Kelvin, and the dependent variable is pressure in the unit of Pascal
 What are appropriate use cases?
 - Temperature and pressure of a gas are typically two variables that fit with linear relationship, while applying ideal gas law. 
-How is it implemented? *
+How is it implemented? 
 - Applying linear regression to the data.And we should not misuse the data.
 What are caveats/biases/concerns to its usage?
 - The data is fake, and we shoule gain real data from experiments.
