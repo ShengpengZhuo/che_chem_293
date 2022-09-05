@@ -4,7 +4,7 @@ How should metrics be interpreted?
 The independent variable is the temperature in the unit of Kelvin, and the dependent variable is pressure in the unit of Pascal
 What are appropriate use cases?
 Temperature and pressure of a gas are typically two variables that fit with a linear relationship while applying the ideal gas law.
-How is it implemented? *
+How is it implemented? 
 Applying linear regression to the data. And we should not misuse the data.
 What are caveats/biases/concerns to its usage?
 The data is fake, and we should gain real data from experiments.
